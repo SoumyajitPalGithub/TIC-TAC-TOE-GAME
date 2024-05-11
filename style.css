@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: #7469B6;
+    padding: 1rem;
+    margin: 10px;
+    justify-content: flex-end;
+}
+
+body{
+    background-color: #FFE6E6;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1.5rem;
+    font-size: 8vmin;
+    color:#E1AFD1;
+    background-color:#AD88C6;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #7469B6;
+    color: antiquewhite;
+    border-radius: 1.5rem;
+    border: none;
+
+}
+#reset-btn:hover{
+    background-color: #02172e;
+    color: #bdc6d0;
+    box-shadow: 0 0 20px rgb(125, 112, 159);
+    transform: scale(1.1);
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #7469B6;
+    color: antiquewhite;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+#new-btn:hover{
+    background-color: #02172e;
+    color: #bdc6d0;
+    box-shadow: 0 0 20px rgb(125, 112, 159);
+    transform: scale(1.1);
+}
+
+#msg{
+    color: rgb(53, 31, 4);
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+.hide{
+    display: none;
+}
+
+/* Using Color Hunt Standard colour palate for the 
+standard designing
+#FFE6E6
+#E1AFD1
+#AD88C6
+#7469B6
